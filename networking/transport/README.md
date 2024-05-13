@@ -5,6 +5,12 @@
 - Transport layer protocols live in the end system, meaning that it does not know anything about host-to-host connections.
 - Although transport layer protocols are limited by the network layer protocols' ability, it can provide extra functionality such as reliability and security.
 
+## Transport Layer Services
+- Reliable Data Transfer
+- Throughput
+- Timing
+- Security
+
 ## Features
 ### Multiplexing & Demultiplexing
 - Definition
