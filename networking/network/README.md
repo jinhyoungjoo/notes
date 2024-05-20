@@ -13,3 +13,13 @@
 - Routing (Control Plane)
     - Network-wide process of determining the end-to-end path a packet takes from source to destination.
 
+## Router
+- A network router consists of four parts.
+    - Input Port
+        - Looks up a destination IP address and send the packet into the switching fabric to the specified output port.
+        - Looking up the forwarding table happens here, and the longest prefix matching rule is used here.
+    - Switching Fabric
+    - Output Port
+    - Routing Processor
+        - The software process that works in the control plane.
+
