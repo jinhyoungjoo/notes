@@ -1,5 +1,15 @@
 # Memory
 
+## Memory Management Models
+- No Memory Abstraction
+    - All processes share one single memory model, the physical memory itself.
+    - The OS is placed either on the RAM (Random Access Memory) or ROM (Read-Only Memory).
+    - Running multiple programs is possible.
+        1. Swap the entire physical memory into a non-volatile storage.
+        2. Split the memory into blocks that have their own protection keys (IBM 360).
+            - Deny access to memory if the target block has a different protection key than the current key. 
+            - Apply static relocation to fix memory access problems.
+
 ## Heap Allocation
 - The current limit of the heap is called the program break.
 
