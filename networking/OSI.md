@@ -45,4 +45,8 @@
 
 ## Layer 1: Physical Layer
 - Defines physical characteristics.
+- Address
+    - MAC Address
+        - Devices are assigned a 6-byte globally unique physical address when it is made.
+        - The first 3 bytes are for the ID of the company that makes the devices.
 - PDU: Bit 
